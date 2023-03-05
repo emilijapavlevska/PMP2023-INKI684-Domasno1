@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="172dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#d2c3d6"
+            android:paddingTop="5dp"
+            android:text="Favorite Twitter Searches"
+            android:textColor="#0c070d"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Enter Twitter search query here"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="560dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="58dp"
+                android:text="Tag your query"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="58dp"
+                android:backgroundTint="#c89dd4"
+                android:text="Save"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="513dp"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="#f2dff7"
+            android:text="Tagged Searches"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:background="#fcfafc"
+            android:columnCount="2"
+            android:padding="15dp"
+            android:rowCount="7">
+
+            <Button
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="AndroidFP"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="Deitel"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="Google"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="iPhoneFP"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="JavaFP"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="58dp"
+                android:layout_marginRight="21dp"
+                android:backgroundTint="#c89dd4"
+                android:text="JavaHTP"
+                android:textColor="#5e0675"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:backgroundTint="#490c59"
+                android:text="Edit"
+                android:textColor="#fefaff"
+                android:textSize="18sp" />
+
+        </GridLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#490c59"
+            android:text="Clear Tags"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
